@@ -1,0 +1,155 @@
+{
+    "basic_info": {
+      "description_header": "Hello!",
+      "description": "I enjoy developing web applications using JavaScript (recently TypeScript) as a hobby. Since I'm a beginner, I would like to develop a lot of web apps in order to learn and improve my skills.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Chat Service (working title)",
+        "startDate": "2023",
+        "description": "I am currently developing a chat service similar to Slack using Next.js, React, and Firebase.",
+        "images": ["images/portfolio/chat-service/thumbnail.png"],
+        "url": "https://github.com/Udon-japanese/wt-chat-service",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-plain",
+            "name": "Next.js"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-tailwindcss-plain",
+            "name": "TailwindCSS"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          }
+        ]
+      },
+      {
+        "title": "ubmarine Game Deluxe (improved version)",
+        "startDate": "2023",
+        "description": "This is my third project since I started programming. I modified a real-time online game that I was able to create through an N-Prep School course. Specifically, I added missile interception capabilities, improved the visual appearance, and included additional in-game items. I was honored to receive the Excellence Award in the N/S High School Division of N-Prep School.",
+        "images": [
+          "images/portfolio/submarine-online/thumbnail.png",
+          "images/portfolio/submarine-online/playing.png"
+        ],
+        "url": "https://github.com/Udon-japanese/submarine-online",
+        "technologies": [
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-webpack-plain",
+            "name": "Webpack"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          }
+        ]
+      },
+      {
+        "title": "Chrome Dinosaur Game.",
+        "startDate": "2022",
+        "description": "This is my second project since I started programming. I took a Google Chrome game parody that I was able to create through an N-Prep School course and added my own twists to it. I included features such as the ability to return to the title screen during gameplay, a double jump, and the addition of a hard mode. It was my first time creating a game using JavaScript, and it was a lot of fun!",
+        "images": [
+          "images/portfolio/dino-game/thumbnail.png",
+          "images/portfolio/dino-game/gameover.png"
+        ],
+        "url": "https://github.com/Udon-japanese/submarine-online",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Positive Monster",
+        "startDate": "2022",
+        "description": "This is the first project I created. It is a tool where you input a word, and it searches for antonyms for that word using Weblio. I wanted to embed it within the page using the iframe tag and make it capable of handling not only single words but also entire sentences for input.",
+        "images": ["images/portfolio/positive-monster/thumbnail.png"],
+        "url": "https://github.com/Udon-japanese/positive-monster",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "General Education Department",
+        "title": "Local full-time high school",
+        "years": "April 2021 - June 2021",
+        "mainTech": ["Due to various circumstances, I transferred schools."],
+        "technologies": ["none"]
+      },
+      {
+        "company": "General Education Department",
+        "title": "S High School",
+        "years": "August 2021 -",
+        "mainTech": ["Volunteer activities, studying programming"],
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Node.js",
+          "Express",
+          "Bootstrap",
+          "PostgreSQL",
+          "Git",
+          "GitHub",
+          "VSCode",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "TailwindCSS"
+        ]
+      }
+    ]
+  }

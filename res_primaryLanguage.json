@@ -1,0 +1,155 @@
+{
+  "basic_info": {
+    "description_header": "こんにちは！",
+    "description": "趣味としてJavaScript(最近はTypeScript)でWebアプリ開発をしています。初心者なので、これから多くのWebアプリを開発して勉強していきたいです。",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "チャットサービス(仮題)(制作中)",
+      "startDate": "2023",
+      "description": "Next.jsとReact,Firebaseを使って、Slackのようなチャットサービスを作成中です。",
+      "images": ["images/portfolio/chat-service/thumbnail.png"],
+      "url": "https://github.com/Udon-japanese/wt-chat-service",
+      "technologies": [
+        {
+          "class": "devicon-nextjs-plain",
+          "name": "Next.js"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "TailwindCSS"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        }
+      ]
+    },
+    {
+      "title": "潜水艦ゲーム・改",
+      "startDate": "2023",
+      "description": "プログラミングを始めて3個目の作品です。N予備校の講座で作成できるリアルタイムオンラインゲームを改造しました。具体的には、ミサイルの迎撃機能や、見た目の改善、ゲーム内のアイテム追加などをしました。N予備校のN/S高等学校部門で優秀賞を受賞することができました。",
+      "images": [
+        "images/portfolio/submarine-online/thumbnail.png",
+        "images/portfolio/submarine-online/playing.png"
+      ],
+      "url": "https://github.com/Udon-japanese/submarine-online",
+      "technologies": [
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-webpack-plain",
+          "name": "Webpack"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        }
+      ]
+    },
+    {
+      "title": "Google Chrome のあのゲーム",
+      "startDate": "2022",
+      "description": "プログラミングを始めて2個目の作品です。N予備校の講座で作成できるGoogle Chrome のゲームのパロディを自分なりにアレンジを加えてみました。ゲームの途中にタイトル画面に戻る機能や、2段ジャンプ、ハードモードの追加をしました。初めてのJSでのゲーム制作で、とても楽しかったです。",
+      "images": [
+        "images/portfolio/dino-game/thumbnail.png",
+        "images/portfolio/dino-game/gameover.png"
+      ],
+      "url": "https://github.com/Udon-japanese/submarine-online",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "ポジティブモンスター",
+      "startDate": "2022",
+      "description": "初めて作った作品です。単語を入力すると、その単語を元にWeblioで対義語を検索するというものです。iframeタグなどでページ内に埋め込んだり、単語だけでなく文章を入力しても対応できるようにしたかったです。",
+      "images": ["images/portfolio/positive-monster/thumbnail.png"],
+      "url": "https://github.com/Udon-japanese/positive-monster",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "普通科",
+      "title": "地元の全日制高校",
+      "years": "2021年4月〜2021年6月",
+      "mainTech": ["諸事情により転校"],
+      "technologies": ["なし"]
+    },
+    {
+      "company": "普通科",
+      "title": "S高等学校",
+      "years": "2021年8月〜",
+      "mainTech": ["ボランティア活動、プログラミングの勉強"],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "Bootstrap",
+        "PostgreSQL",
+        "Git",
+        "GitHub",
+        "VSCode",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "TailwindCSS"
+      ]
+    }
+  ]
+}
